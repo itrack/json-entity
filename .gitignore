@@ -1,0 +1,18 @@
+# General
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+.smbdelete*
+
+# Thumbnails
+._*
+
+# Test files
+vendor
+composer.phar
+composer.lock
+phpunit.xml
+/.phpunit.cache
+/phpcs.xml
+/.phpcs-cache

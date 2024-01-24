@@ -1,0 +1,39 @@
+{
+  "name": "itrack/json-entity",
+  "type": "library",
+  "description": "Convert a json string to an entity",
+  "license": "MIT",
+  "homepage": "https://devgeeks.ro",
+  "authors": [
+    {
+      "name": "Alex Stoica",
+      "email": "alex.github@devgeeks.ro"
+    }
+  ],
+  "keywords": [
+    "json",
+    "json orm",
+    "json entity",
+    "api to orm",
+    "api to entity"
+  ],
+  "require": {
+    "php": ">=7.4 || >=8.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9 || ^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Itrack\\JsonEntity\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Itrack\\JsonEntity\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
